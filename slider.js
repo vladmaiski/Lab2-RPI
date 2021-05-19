@@ -67,7 +67,7 @@ function initSliderImages() {
     let navList = document.getElementById("navigationList");
     
     for (var i = 1; i <= slidesAmount; i++) {
-        images[i - 1] = dirPattern + i;
+        images[i - 1] = dirPattern + i + ".jpg";
         navList.appendChild(document.createElement("li"));
     }
 
